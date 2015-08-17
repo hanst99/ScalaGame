@@ -11,6 +11,6 @@ class HelloSpec extends FlatSpec with Matchers {
     true shouldBe true
   }
   it should "provide an example for a failing test" in pendingUntilFixed {
-    true shouldBe true
+    false shouldBe true
   }
 }
